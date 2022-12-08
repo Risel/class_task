@@ -62,5 +62,3 @@ const items:IItem[] = [
     { id: 8, parent: 4, type: null },
 ];
 const ts = new TreeStore(items);
-
-console.log(ts.getAll())
